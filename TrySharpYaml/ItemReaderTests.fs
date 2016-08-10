@@ -5,7 +5,6 @@ open SharpYaml.Serialization
 open NUnit.Framework
 
 type Item() =
-
       [<YamlMember("part_no")>]
       member val PartNo = "" with set,get
 
@@ -36,7 +35,6 @@ let shouldReadYam() =
       let input = new StringReader(text);
       //let order = deserializer.Deserialize(input, typeof<Order>) 
       let order = deserializer.Deserialize(input) 
-
       ()
 
 

@@ -1,9 +1,5 @@
 # Autosave files
 *~
-
-build.cmd
-build.ps1
-
 tools
 *.userpref
 

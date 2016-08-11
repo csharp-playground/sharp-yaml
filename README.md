@@ -4,4 +4,4 @@
 
 ## Issue
 
-- Deserialize object group not working #1
+- Deserialize object graph not working #1

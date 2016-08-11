@@ -3,6 +3,8 @@
 tools
 *.userpref
 
+TestResult.*
+
 # build
 [Oo]bj/
 [Bb]in/

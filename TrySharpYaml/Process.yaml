@@ -1,0 +1,10 @@
+﻿ps:
+  - process: A, B, C
+    step:
+      - A
+      - B
+      - C
+  - process: A, B
+    step:
+      - A
+      - B	
